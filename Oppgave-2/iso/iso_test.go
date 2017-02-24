@@ -2,12 +2,11 @@ package iso
 
 import (
 	"testing"
-	"unicode"
 )
 
-func TestGreetingASCII(t *testing.T) {
-	a := GreetingASCII()
-	if isAscii(a) == false {
+func TestGreetingExtendedASCII(t *testing.T) {
+	a := GreetingExtendedASCII()
+	if isExAscii(a) == false {
 		t.Fail()
 	}
 }
@@ -15,9 +14,9 @@ func TestGreetingASCII(t *testing.T) {
 // Original fra https://play.golang.org/p/hnZzfnbXeF
 func isExAscii(a string) bool {
 	for _, c := range a {
-		if c > unicode.MaxASCII {
-			return false
+		if (c > 127) && (c < 256) {
+			return true
 		}
 	}
-	return true
+	return false
 }
