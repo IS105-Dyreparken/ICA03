@@ -1,8 +1,6 @@
 package iso
 
-import (
-	"testing"
-)
+import "testing"
 
 func TestGreetingExtendedASCII(t *testing.T) {
 	a := GreetingExtendedASCII()
