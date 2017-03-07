@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;ICA03&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../is105-ica03" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../is105-ica03" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
