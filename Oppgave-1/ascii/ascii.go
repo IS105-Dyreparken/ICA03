@@ -14,10 +14,10 @@ func IterateOverASCIIStringLiteral(s string) {
 }
 
 func GreetingASCII() string {
-	t1 := []byte("\x48\x65\x6c\x6c\x6f\x20\x3a\x2d\x29")
+	t1 := []byte("\x22\x48\x65\x6c\x6c\x6f\x20\x3a\x2d\x29\x22")
 	for i := 0; i < len(t1); i++ {
 		fmt.Printf("%c", t1[i])
 	}
-	t2 := "\x48\x65\x6c\x6c\x6f\x20\x3a\x2d\x29"
+	t2 := "\x22\x48\x65\x6c\x6c\x6f\x20\x3a\x2d\x29\x22"
 	return t2
 }
