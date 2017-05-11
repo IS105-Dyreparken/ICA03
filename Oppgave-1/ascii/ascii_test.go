@@ -7,15 +7,14 @@ import (
 
 func TestGreetingASCII(t *testing.T) {
 	a := GreetingASCII()
-	if isAscii(a) == false {
-		t.Fail()
+	if isASCII(a) == false {
+		t.Errorf("FAIL")
 	}
 }
 
-// Original fra https://play.golang.org/p/hnZzfnbXeF
-func isAscii(a string) bool {
-	for _, c := range a {
-		if c > unicode.MaxASCII {
+func isASCII(t2 string) bool {
+	for _, i := range t2 {
+		if i > unicode.MaxASCII {
 			return false
 		}
 	}
