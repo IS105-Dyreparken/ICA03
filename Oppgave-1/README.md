@@ -13,5 +13,10 @@ Funksjonen greetingASCII() returnerer en variabel av typen string,
 som inneholder kun ASCII-tegn.
 
 c)Vi har implementert en test for funksjonen GreetingASCII i en egen fil
-ascii_test.go, som tester om returverdier av typen string inneholder kune
+ascii_test.go, som tester om returverdier av typen string inneholder kun
 ASCII-tegn.
+
+
+
+Alle utførelsene av ascii_main.go får samme resulateter på hver platform
+vi tester det på.
