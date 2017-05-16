@@ -1,6 +1,6 @@
 # ICA03 for gruppe 2, Dyreparken
 
-Består av:  
+Deltakere:  
 
 Dyb, Nikolai Holmen
 
@@ -13,3 +13,7 @@ Sandøy, Benjamin AG
 Thompson, Sindre  
 
 Yang, Erik
+
+
+Vi har sammarbeidet på samme pc på flere av oppgavene,
+dette er grunne til at noen har mange commits.
